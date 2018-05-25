@@ -1,0 +1,54 @@
+.contenedor-ppal {
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+}
+
+.contenedor {
+    width: 500px;
+    height: 350px;
+    margin: auto;
+}
+.cabecera {
+    overflow: hidden;
+    
+}
+.titulo {
+    margin-left: 10px;
+}
+.logo{
+    float: right;
+}
+.cuerpo {
+    overflow: hidden;
+}
+.izq {
+    width: 50%;
+    float: left;
+}
+.der {
+    width: 50%;
+    float: right;
+}
+.pie {
+    padding: 10px;
+    text-align: center;
+}
+
+.pie input[type="submit"] {
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+input {
+    font-size: 18px;
+    font-family: 'Handlee', cursive;
+}
+
+.der input[type="text"] {
+    display: block;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
